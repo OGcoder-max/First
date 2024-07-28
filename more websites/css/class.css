@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 10px;
+}
+
+section {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nothing {
+  color: black;
+}
+
+#parentnone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.monkey {
+  background-color: blue;
+  padding: 10px;
+  width: 120px;
+  margin-top: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.monkey a {
+  color: wheat;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.animal {
+  background-color: blue;
+  padding: 10px;
+  width: 120px;
+  margin-top: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.animal a {
+  color: wheat;
+  text-decoration: none;
+  list-style-type: none;
+}
